@@ -15,7 +15,7 @@ _enemyInf = [
 	"O_G_Soldier_A_F"];
 
 // spawn 20 badboyz
-for "_i" from 1 to 20 do {
+for "_i" from 1 to 30 do {
 	_selectedUnit = selectRandom (_enemyInf);
 	_selectedPos = selectRandom (_housePosArray);
 
