@@ -1,0 +1,19 @@
+// Standard mission info and set up
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 18;
+};
+
+disabledAI = 1;
+
+// Mission Overview
+overviewText = "Hostage Rescue";
+overviewPicture = "";
+author = "Melvin";
+
+// Loading screen
+onLoadName = "Hostage Rescue";
+onLoadMission = "Save the hostages.";
+loadScreen = ""; // Preview picture
